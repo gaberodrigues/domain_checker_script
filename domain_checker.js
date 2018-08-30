@@ -1,3 +1,5 @@
+//Checks a website if a domain is available every 5 minutes
+
 var link = document.getElementById('Submit');
 var i = 0, y=0, howManyTimes = 1000000;
 var audio = new Audio('https://www.soundjay.com/phone/telephone-ring-01a.mp3');
